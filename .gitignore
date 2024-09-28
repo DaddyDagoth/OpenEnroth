@@ -49,3 +49,4 @@ dist
 .gradle
 .cxx
 local.properties
+thirdparty/luajit/luajit
