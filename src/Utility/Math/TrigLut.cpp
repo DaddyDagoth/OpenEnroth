@@ -1,6 +1,7 @@
 #include "TrigLut.h"
 
 #include <cmath>
+#include <corecrt_math_defines.h>
 
 TrigTableLookup TrigLUT;
 
