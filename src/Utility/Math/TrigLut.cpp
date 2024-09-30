@@ -1,6 +1,6 @@
 #include "TrigLut.h"
-
 #include <cmath>
+//Defines M_PI in VS code. No Idea why it is undefined by default.
 #include <corecrt_math_defines.h>
 
 TrigTableLookup TrigLUT;
