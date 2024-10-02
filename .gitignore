@@ -50,3 +50,4 @@ dist
 .cxx
 local.properties
 thirdparty/luajit/luajit
+/thirdparty/luajit
