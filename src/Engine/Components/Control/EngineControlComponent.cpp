@@ -10,8 +10,8 @@
 static void controlThread(EngineControlState *unsafeState) {
     EngineControlStateHandle state(SIDE_CONTROL, unsafeState);
     EngineController controller(state);
-
-    while (true) {
+    //Changed to better reflect the intention of the loop
+    while (!state->terminating) {
         while (state->controlRoutineQueue.empty() && !state->terminating)
             state.yieldExecution();
 
